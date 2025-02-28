@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" type="image/png" href="map.png">
+    <link rel="stylesheet" href="https://unpkg.com/leaflet/dist/leaflet.css" />
+    <script src="https://unpkg.com/leaflet/dist/leaflet.js"></script>
+    <title>Google_Maps_Simulation</title>
+</head>
+<body>
+    <h1>Google Maps Simulation</h1>
+    <input type="text" id="location1" placeholder="Enter the depart location">
+    <input type="text" id="location2" placeholder="Enter the destination location">
+    <button onclick="findLocation()">Find Locations</button>
+    <div id="map"></div>
+    <!--Leaflet.js is a powerful open-source JavaScript library used to create interactive 
+     maps in web applications. It allows you to add maps, markers, popups, and various geographical
+     features to your website or project. -->
+    <script src="https://unpkg.com/leaflet/dist/leaflet.js"></script>
+    <script src="app.js"></script>
+</body>
+</html>

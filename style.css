@@ -1,0 +1,21 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+}
+
+input {
+    margin: 10px;
+    padding: 10px;
+}
+
+button {
+    padding: 10px;
+    cursor: pointer;
+}
+
+#map {
+    width: 80%;
+    height: 500px;
+    margin: 20px auto;
+    border: 2px solid black;
+}
